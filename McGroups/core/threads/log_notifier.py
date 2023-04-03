@@ -7,13 +7,13 @@ def send_to_free_finder(name, id, members):
   data = {"content": ""}
   data["embeds"] = [
     {
-      "title": "∆ New Group Found!",
+      "title": "🌟New Group Found!🌟",
       "description": f"**• ID:** `{id}`\n**• Name:** `{name}`\n**• Members:** `{members}`\n**• Ad:** **__[McGroups Group Finder](https://discord.gg/robloxgroups)__**",
       "url": f"https://www.roblox.com/groups/{id}",
       "color": random.randint(8000000, 16777215),
       "footer": {
-        "text": "© McGroups",
-        "icon_url": "https://media.discordapp.net/attachments/1055864885650673665/1064158737775997088/pfp2.png"
+        "text": "! RO SHINE !",
+        "icon_url": "https://cdn.discordapp.com/icons/997128081393332324/a4420de6a0465df8bc665c4433a8307a.webp?size=100"
       },
       "thumbnail": {
         "url": groupimage(id)
@@ -23,17 +23,17 @@ def send_to_free_finder(name, id, members):
   return requests.post(webhook, json=data)
 
 def send_to_level_5(name, id, members, robux):
-  webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+  webhook = "https://discord.com/api/webhooks/1092474772362895360/u5mG1w0wH-8ZyE2hFLADhRRPgDsEK45rqdOO3v8MRpH5zZ19xTcXiv_v8xorrr7NI6ie"
   data = {"content": ""}
   data["embeds"] = [
     {
-      "title": "∆ New Group Found!",
+      "title": "🌟New Group Found!🌟",
       "description": f"• **ID:** ``{id}``\n• **Name:** ``{name}``\n• **Members:** ``{members}``\n• **Robux**: ``{robux}``\n",
       "url": f"https://roblox.com/groups/{id}",
       "color": random.randint(8000000, 16777215),
       "footer": {
-        "text": "© McGroups",
-        "icon_url": "https://media.discordapp.net/attachments/1055864885650673665/1064158737775997088/pfp2.png"
+        "text": "! RO SHINE !",
+        "icon_url": "https://cdn.discordapp.com/icons/997128081393332324/a4420de6a0465df8bc665c4433a8307a.webp?size=100"
       },
       "thumbnail": {
         "url": groupimage(id)
@@ -43,7 +43,7 @@ def send_to_level_5(name, id, members, robux):
   requests.post(webhook, json=data)
 
 def send_to_premium_finder(name, id, members, robx, clothin, gams, gamevisi):
-  webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+  webhook = "https://discord.com/api/webhooks/1092474772362895360/u5mG1w0wH-8ZyE2hFLADhRRPgDsEK45rqdOO3v8MRpH5zZ19xTcXiv_v8xorrr7NI6ie"
   data = {"content": ""}
   data["embeds"] = [
     {
@@ -64,7 +64,7 @@ def send_to_premium_finder(name, id, members, robx, clothin, gams, gamevisi):
 
 
 def trulymore_group_feed(name, id, members, robx, clothin, gams, gamevisi):
-    webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+    webhook = "https://discord.com/api/webhooks/1092474772362895360/u5mG1w0wH-8ZyE2hFLADhRRPgDsEK45rqdOO3v8MRpH5zZ19xTcXiv_v8xorrr7NI6ie"
     data = {"content": "@everyone | **Claim the Group**."}
     data["embeds"] = [
     {
@@ -85,7 +85,7 @@ def trulymore_group_feed(name, id, members, robx, clothin, gams, gamevisi):
 
 
 def xyz_group_feed(name, id, members, robx, clothin, gams, gamevisi):
-    webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+    webhook = "https://discord.com/api/webhooks/1092474772362895360/u5mG1w0wH-8ZyE2hFLADhRRPgDsEK45rqdOO3v8MRpH5zZ19xTcXiv_v8xorrr7NI6ie"
     data = {"content": "@everyone | **Claim the Group**."}
     data["embeds"] = [
     {
